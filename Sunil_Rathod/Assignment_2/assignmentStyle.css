@@ -1,0 +1,122 @@
+.block1 {
+    border: 1px solid #000;
+    background-color: rgb(228, 202, 9);
+    width: 100px;
+    height: 100px;
+    position: static;
+}
+
+.block2 {
+    border: 1px solid #000;
+    background-color: #f00;
+    width: 100px;
+    height: 100px;
+    top: -100px;
+    left: 110px;
+    position: relative;
+}
+
+.block3 {
+    border: 1px solid #000;
+    background-color: rgb(21, 14, 240);
+    width: 100px;
+    height: 100px;
+    left: 93%;
+    top: -200px;
+    position: relative;
+}
+
+.block4 {
+    border: 1px solid #000;
+    background-color: rgb(85, 86, 86);
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    position: absolute;
+}
+
+.block5 {
+    border: 1px solid #000;
+    background-color: rgb(99, 2, 197);
+    width: 100px;
+    height: 100px;
+    top: 310px;
+    position: absolute;
+}
+
+.block6 {
+    border: 1px solid #000;
+    background-color: rgb(74, 73, 73);
+    width: 100px;
+    height: 100px;
+    top: -69px;
+    left: 77%;
+    position: relative;
+}
+
+.block7 {
+    border: 1px solid #000;
+    background-color: rgb(244, 8, 12);
+    width: 100px;
+    height: 100px;
+    top: -170px;
+    left: 85%;
+    position: relative;
+}
+
+.block8 {
+    border: 1px solid #000;
+    background-color: rgb(72, 9, 206);
+    width: 100px;
+    height: 100px;
+    top: -270px;
+    left: 93%;
+    position: relative;
+}
+
+.block9 {
+    border: 1px solid #000;
+    background-color: rgb(245, 225, 7);
+    width: 100px;
+    height: 100px;
+    top: -260px;
+    position: relative;
+}
+
+.block10 {
+    border: 1px solid #000;
+    background-color: rgb(227, 42, 9);
+    width: 100px;
+    height: 100px;
+    top: -360px;
+    left: 8%;
+    position: relative;
+}
+
+.block11 {
+    border: 1px solid #000;
+    background-color: rgb(237, 194, 2);
+    width: 100px;
+    height: 100px;
+    top: -460px;
+    left: 16%;
+    position: relative;
+}
+
+.block12 {
+    border: 1px solid #000;
+    background-color: rgb(255, 196, 0);
+    width: 100px;
+    height: 100px;
+    top: -450px;
+    position: relative;
+}
+
+h1 {
+    border: 1px solid #000;
+    background-color: rgb(255, 252, 252);
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
