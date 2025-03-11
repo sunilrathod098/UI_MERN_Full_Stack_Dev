@@ -16,51 +16,60 @@ body {
     padding: 60px 20px;
 }
 
-.container{
+.container {
     display: flex;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    gap: 20px;
 }
 
-.studentNames{
-    flex: 1;
+.studentNames {
+    position: fixed;
+    left: 0;
+    top: 90px;
+    width: 250px;
+    height: 100vh;
+    overflow-y: auto;
     padding: 15px;
-    border-right: 2px solid #000000;
+    border-right: 2px solid black;
+    background: white;
 }
-.sblock{
+
+.sblock {
     padding: 10px;
-    background-color: #ffffff;
-    border: 2px solid #000000;
+    background: white;
     margin: 5px 0;
+    border: 1px solid #171616;
     border-radius: 5px;
 }
 
-.studenDetails {
-    flex: 2;
+.studentDetails {
+    margin-left: 350px;
+    width: calc(100% - 350px);
+    /* Here the Calc() function is subtracts 350px from full width 
+        Allows dynamic calculations instead of manually adjusting sizes.
+        Combines different units (%, px, rem, etc.).
+        Reduces need for media queries in some cases.
+        Improves responsiveness in layouts.*/
 }
 
 .student_card {
-    background: #ffffff;
+    background: white;
     margin: 10px 0;
     padding: 15px;
-    border: 2px solid #000000;
-    border-radius: 5px;
+    border: 2px solid #171616;
+    border-radius: 15px;
     display: flex;
-    gap: 10px;
-    align-items: center;
+    align-items: right;
+    gap: 20px;
+    width: 500px;
 }
 
 .student_card img {
-    width: 200px;
-    height: 200px;
-    border-radius: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
 }
 
-.student_info{
+.student_info {
     flex-grow: 1;
 }
-
-
-
-
