@@ -1,0 +1,66 @@
+h1 {
+    border: 2px solid #000000;
+    background-color: #02562c;
+    width: 95%;
+    top: 0;
+    padding: 5px;
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 60px 20px;
+}
+
+.container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.studentNames{
+    flex: 1;
+    padding: 15px;
+    border-right: 2px solid #000000;
+}
+.sblock{
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.studenDetails {
+    flex: 2;
+}
+
+.student_card {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.student_card img {
+    width: 200px;
+    height: 200px;
+    border-radius: auto;
+}
+
+.student_info{
+    flex-grow: 1;
+}
+
+
+
+
