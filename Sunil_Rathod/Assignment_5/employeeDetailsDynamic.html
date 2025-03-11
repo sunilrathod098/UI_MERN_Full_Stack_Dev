@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+</head>
+
+<body>
+    <h1>Employee Details Dynamically</h1>
+</body>
+<script>
+    var eName = prompt("Enter employee name: ")
+    var eAge = prompt("Enter employee age: ")
+    var eGender = prompt("Enter employee gender: ")
+    var eBasicSalary = parseInt(prompt("Enter employee basic salary: "))
+    var eDepartment = prompt("Enter employee department name: ")
+    var ePF = (eBasicSalary * 12) / 100;
+    var eHRA = (eBasicSalary * 24) / 100;
+    var totalSalary = ePF + eHRA + eBasicSalary;
+
+    <!-- here we are using (document.write)
+        we show the data in web page -->
+
+    document.write("<h2>Employee Details:</h2>")
+    document.write("<h4>Employee Name: " + eName + "</h4>")
+    document.write("<h4>Employee Age: " + eAge + "</h4>")
+    document.write("<h4>Employee Gender: " + eGender + "</h4>")
+    document.write("<h4>Employee Basic Salary: " + eBasicSalary + "</h4>")
+    document.write("<h4>Employee Department: " + eDepartment + "</h4>")
+    document.write("<h4>Employee PF: " + ePF + "</h4>")
+    document.write("<h4>Employee HRA: " + eHRA + "</h4>")
+    document.write("<h4>Employee Total Salary: " + totalSalary + "</h4>")
+</script>
+
+</html>
