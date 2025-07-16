@@ -1,0 +1,294 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: arial;
+    color: white;
+}
+
+.bi-justify {
+    font-size: 25px;
+    vertical-align:top;
+}
+
+body{
+    background-color: #0d0c0c;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-between;
+    background-color: #222020;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+.header-logo{
+    width: 20%;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
+
+.bi-mic-fill {
+    font-size: 20px;
+    background-color: #373636;
+    padding: 5px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.bi-three-dots-vertical {
+    font-size: 22px;
+    align-items: center;
+}
+
+.btn-sign {
+    border:1px solid blue;
+    padding: 10px;
+    border-radius: 15px;
+    color:blue;
+}
+section {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.banner {
+    border-radius: 20px;
+}
+
+nav {
+    font-family: arial;
+    gap: 10px;
+}
+
+
+.nav-item{
+    align-items: left;
+    gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    text-align: left;
+    margin-left: 10px;
+    color: white;
+}
+
+.nav-text~span {
+    margin-right: 10px;
+    text-align: left;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-icon {
+    font-size: 18px;
+}
+
+main{
+    width: 100%;
+    height: 550px;
+    overflow:auto;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    margin-top: 20px;
+    font-family: Arial;
+    color: white;
+}
+
+.logo {
+    border-radius: 500%;
+    padding: 5px;
+    padding: -40px;
+}
+
+.logo-title {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-subtitle {
+    background-color: red;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.article-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.article-subtitle {
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.article-text {
+    margin-bottom: 10px;
+}
+
+.btn-subscribe {
+    margin-top: 10px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.services {
+    margin-top: 20px;
+    font-family: Arial;
+    color: white;
+}
+
+.services-menu span {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.services-menu span:first-child {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.services-menu .bi-search {
+    color: gray;
+}
+.services-menu {
+    margin-bottom: 20px;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+.videos iframe {
+    border-radius: 6px;
+    border: 2px solid black;
+}
+
+.card-footer {
+    padding-top: 20px;
+    color: gray;
+}
+
+.card-body {
+    padding-top: 10px;
+}
+
+
+
+/* Responsive design here */
+/* this is for tablets and small laptops (1024px and below) */
+@media (max-width: 1024px) {
+    .search-bar {
+        width: 300px;
+    }
+    
+    .search-container {
+        width: 400px;
+    }
+    
+    .videos {
+        grid-template-columns: 4fr 4fr 4fr;
+    }
+    
+    section {
+        grid-template-columns: 3fr 9fr;
+    }
+}
+
+/* this is for tablets (768px and below) */
+@media (max-width: 768px) {
+    .search-bar {
+        width: 200px;
+    }
+    
+    .search-container {
+        width: 300px;
+    }
+    
+    .videos {
+        grid-template-columns: 6fr 6fr;
+    }
+    
+    section {
+        grid-template-columns: 4fr 8fr;
+    }
+    
+    .header-logo {
+        width: 30%;
+    }
+}
+
+/*this for mobile phones (480px and below) */
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .search-bar {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .search-container {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .videos {
+        grid-template-columns: 12fr;
+    }
+    
+    section {
+        grid-template-columns: 1fr;
+    }
+    
+    nav {
+        display: none;
+    }
+    
+    article {
+        grid-template-columns: 1fr;
+    }
+    
+    .header-logo {
+        width: 50%;
+    }
+    
+    .services-menu span {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    
+    .article-title {
+        font-size: 24px;
+    }
+}

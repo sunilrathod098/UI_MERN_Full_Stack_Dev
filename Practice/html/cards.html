@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Cards</title>
+    <style>
+        .card {
+            width: 250px;
+            margin: 20px;
+            border-radius: 10px;
+            border: 1px solid gray;
+            box-shadow: 2px 2px 2px rgb(47, 47, 47);
+            font-family: Arial;
+        }
+        .card-image {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            height: 150px;
+        }
+        .card-header {
+            height: 150px;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .card-title {
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .rating {
+            text-align: center;
+            color: goldenrod;
+            padding-top: 20px;
+        }
+        ul {
+            list-style: none;
+            margin-left: -40px;
+        }
+        li{
+            line-height: 30px;
+        }
+        .card-footer {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            text-align: center;
+        }
+        .btn-enroll {
+            background-color: hsl(230, 100%, 50%);
+            color: white;
+            padding: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        .btn-share {
+            background-color: #b9b7b7;
+            padding: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .card-main-title {
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+            font-family: Arial;
+        }
+        section {
+            display: flex;
+            justify-content: row;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <span class="card-main-title">Cards</span>
+        <div class="card">
+            <div class="card-header">
+                <img class="card-image" src="../images/Java.png" alt="image not found">
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">
+                        Java Full Stack
+                    </div>
+                    <div class="rating">
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li class="bi bi-calender-date"><span>Start Date</span><span> : </span><span>15 Apr 2025</span></li>
+                        <li class="bi bi-person"><span>By</span> <span> : </span> <span>Real-Time Expert</span></li>
+                        <li class="bi bi-clock"><span>Duration</span> <span> : </span> <span>6 Months </span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="btn-enroll">Enroll</div>
+                <div class="btn-share"><span class="bi bi-share"></span>Share</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img class="card-image" src="../images/salesforces.png" alt="image not found">
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">
+                        Salesforce CRM
+                    </div>
+                    <div class="rating">
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li class="bi bi-calender-date"><span>Start Date</span><span> : </span><span>17 Apr 2025</span></li>
+                        <li class="bi bi-person"><span>By</span> <span> : </span> <span>Real-Time Expert</span></li>
+                        <li class="bi bi-clock"><span>Duration</span> <span> : </span> <span>60 Days </span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="btn-enroll">Enroll</div>
+                <div class="btn-share"><span class="bi bi-share"></span>Share</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img class="card-image" src="../images/software_testing.png" alt="image not found">
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">
+                        Software Testing
+                    </div>
+                    <div class="rating">
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li class="bi bi-calender-date"><span>Start Date</span><span> : </span><span>17 Apr 2025</span></li>
+                        <li class="bi bi-person"><span>By</span> <span> : </span> <span>Mr.RaviKanth</span></li>
+                        <li class="bi bi-clock"><span>Duration</span> <span> : </span> <span>3 Months </span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="btn-enroll">Enroll</div>
+                <div class="btn-share"><span class="bi bi-share"></span>Share</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img class="card-image" src="../images/python.png" alt="image not found">
+            </div>
+            <div class="card-body">
+                <div>
+                    <div class="card-title">
+                        Python Full Stack
+                    </div>
+                    <div class="rating">
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                        <span class="bi bi-star-fill"></span>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li class="bi bi-calender-date"><span>Start Date</span><span> : </span><span>15 Apr 2025</span></li>
+                        <li class="bi bi-person"><span>By</span> <span> : </span> <span>Mr. Mayur</span></li>
+                        <li class="bi bi-clock"><span>Duration</span> <span> : </span> <span>5 Months </span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="btn-enroll">Enroll</div>
+                <div class="btn-share"><span class="bi bi-share"></span>Share</div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

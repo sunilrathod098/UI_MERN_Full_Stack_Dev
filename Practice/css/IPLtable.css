@@ -1,0 +1,48 @@
+table {
+    font-family: arial;
+}
+caption {
+    text-align: Center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.img-team {
+    width: 20px;
+    padding-right: 10px;
+}
+.won{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    border: 1px solid green;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: green;
+}
+
+.lost {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    border: 1px solid red;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: red;
+}
+
+.NaN {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}

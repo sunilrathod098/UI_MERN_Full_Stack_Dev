@@ -1,0 +1,95 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0) 50%, rgb(222, 194, 194), rgb(0, 0, 0));
+}
+
+section {
+    background-image: url(../images/netfilxImage.png);
+    background-size: cover;
+    height: 700px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.shade {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    height: 100%;
+    border-radius: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: arial;
+}
+
+.brand-title {
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.language {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.signin {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial;
+    padding-top: 50px;
+}
+
+.section-subtitle {
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 20px;
+}
+main {
+    font-family: arial;
+}
+
+.main-title {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.email {
+    background-color: rgba(199, 196, 196, 0.744);
+    padding: 20px;
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: 20px;
+}
+
+.btn-start {
+    background-color: red;
+    padding: 20px;
+    display: inline-block;
+    width: 170px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}

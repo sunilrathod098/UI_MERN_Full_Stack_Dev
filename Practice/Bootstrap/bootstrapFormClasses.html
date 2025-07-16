@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Form Classes</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100">
+    <form class="mt-4 border border-2 rounded p-4 shadow w-50">
+        <div class="bi my-2 text-center bi-person-fill fs-4 fw-bold">Register User</div>
+        <div class="mb-2">
+            <label class="form-lable">User Name</label>
+            <div>
+                <input type="text" placeholder="Enter your name" class="form-control">
+            </div>
+            <div>
+                <label class="form-label">Email</label>
+                <div>
+                    <input type="text" placeholder="Enter your email" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="mb-2">
+            <label class="form-lable">Password</label>
+            <div>
+                <input type="text" placeholder="Enter your password" class="form-control">
+            </div>
+        </div>
+        <div class="mb-2">
+            <label class="form-lable">Your City</label>
+            <div>
+                <select class="form-select">
+                    <option>Select Your City</option>
+                    <option>Hyd</option>
+                    <option>Mumbai</option>
+                    <option>Pune</option>
+                    <option>Delhi</option>
+                </select>
+            </div>
+        </div>
+        <div class="mb-2">
+            <label class="form-lable">Rating</label>
+            <div>
+                <input type="range" class="form-range" min="0" max="10" step="1">
+            </div>
+        </div>
+        <div class="mb-2">
+            <label class="form-label">Subscribe</label>
+            <div class="form-switch">
+                <input type="checkbox" class="form-check-input" id="subscribeSwitch"><label class="form-check-label">Yes</label>
+            </div>
+        </div>
+        <div class="mb-2">
+            <button class="btn btn-primary w-100">Register</button>
+        </div>
+    </form>
+</body>
+</html>

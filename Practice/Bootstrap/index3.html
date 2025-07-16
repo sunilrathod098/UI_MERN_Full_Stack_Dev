@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Components</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body class="container-fuild">
+    <h1 class="fw-bold">Basic Bootstrap Components</h1>
+    <h3 class="fst-italic fw-bold p-2 m-4">Alerts</h3>
+    <div class="alert alert-success alert-dismissibe  w-50">
+        <button data-bs-></button>
+        <h2>Register Successfully</h2>
+        <p>Your account created successfully and activated and send link in your email</p>
+        <a href="#">Help?</a><br><br>
+        <button class="bg-success p-1 rounded">OK</button>
+    </div>
+    <!-- d-flex justify-content-center align-items-center  height:100vh-->
+    <div class="d-flex justify-content-center align-items-center" style="height:50vh">
+        <img src="../images/kid_img.png" width="200" height="200" class="border border-2 border-     rounded rounded-reactangle">
+    </div>
+
+        <div class="m-4 p-4 text-white bg-secondary">
+            <div class="fs-4 fw-bold text-center text-danger">Personal Loan EMI Calculator</div>
+            <div class="row my-4">
+                <div class="col">
+                    Amount you need <input type="text" size="8">
+                </div>
+                <div class="col">
+                    for <input type="text" size="2"> years
+                </div>
+                <div class="col">
+                    interest <input type="text" size="2"> %
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col">
+                    <input type="range" min="1" max="100">
+                    <div>
+                        <span>&#8377; 1,00,000/-</span>
+                        <span class="float-end">&#8377; 10,00,000/-</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="range" value="2" class="w-100">
+                    <div>
+                        <span>1</span>
+                        <span class="float-end">5</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="range" value="10" class="w-100">
+                    <div>
+                        <span>10.45%</span>
+                        <span class="float-end">18.45%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-primary float-end">Calculate</button>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

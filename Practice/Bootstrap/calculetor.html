@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body class="bg-secondary">
+    <div class="m-4 p-4 bg-white">
+        <div class="fs-4 fw-bold text-center">Personal Loan EMI Calculator</div>
+        <div class="row my-4">
+            <div class="col">
+                Amount you need <input type="text" size="8">
+            </div>
+            <div class="col">
+                for <input type="text" size="2"> years
+            </div>
+            <div class="col">
+                interest rate <input type="text" size="2"> %
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col">
+                <input type="range" min="1" max="100" value="20" class="w-100">
+                <div>
+                    <span>&#8377; 1,00,000/-</span>
+                    <span class="float-end">&#8377; 10,00,000/-</span>
+                </div>
+            </div>
+            <div class="col">
+                <input type="range" value="2" class="w-100">
+                <div>
+                    <span>1</span>
+                    <span class="float-end">5</span>
+                </div>
+            </div>
+            <div class="col">
+                <input type="range" value="10" class="w-100">
+                <div>
+                    <span>10.45%</span>
+                    <span class="float-end">18.45%</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-primary float-end">Calculate</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
